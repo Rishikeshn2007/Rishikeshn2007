@@ -220,22 +220,6 @@ Build Better
 
 I believe the best way to learn technology is to **build things, break things, and understand why they broke.**
 
----
-
-## 📊 GitHub
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Rishikeshn2007&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" />
-
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rishikeshn2007&layout=compact&hide_border=true&theme=transparent" />
-
-</div>
-
----
-
 <div align="center">
 
 ```text
