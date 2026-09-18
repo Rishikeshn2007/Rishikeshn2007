@@ -1,13 +1,12 @@
 <div align="center">
 
-# 👋 Hi, I'm Rishikesh
+# Hi there 👋 I'm Rishikesh
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=00E5FF&center=true&vCenter=true&repeat=true&width=650&height=55&lines=Backend+Developer;Systems+Builder;Linux+Enthusiast;AI+%2B+RAG+Developer;Embedded+Systems+Explorer;Learning+How+Computers+Actually+Work" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=00E5FF&center=true&vCenter=true&repeat=true&width=700&height=55&lines=Backend+Developer;Systems+Builder;Linux+User;IoT+%26+Embedded+Systems;AI+%26+RAG+Developer;Always+Learning+Something+New" alt="Typing SVG" />
 
 <br/>
 
-[![GitHub](https://img.shields.io/badge/GitHub-Rishikeshn2007-181717?style=for-the-badge&logo=github)](https://github.com/Rishikeshn2007)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rishikesh%20N-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-Rishikeshn2007-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rishikeshn2007)
 [![Profile Views](https://komarev.com/ghpvc/?username=Rishikeshn2007&style=for-the-badge)](https://github.com/Rishikeshn2007)
 
 </div>
@@ -17,62 +16,50 @@
 <div align="center">
 
 ```text
-┌──────────────────────────────────────────────────────┐
-│                                                      │
-│   BUILD → BREAK → DEBUG → UNDERSTAND → REBUILD      │
-│                                                      │
-└──────────────────────────────────────────────────────┘
+╔══════════════════════════════════════════════════════╗
+║                                                      ║
+║       BUILD  •  BREAK  •  DEBUG  •  REBUILD         ║
+║                                                      ║
+║          Understanding systems, one layer            ║
+║                    at a time.                        ║
+║                                                      ║
+╚══════════════════════════════════════════════════════╝
 ```
 
 </div>
 
 ## ⚙️ About Me
 
-```text
-Name       : Rishikesh
-Focus      : Backend & Systems
-Environment: Linux / Arch
-Languages  : C • Java • Python • JavaScript
-Interests  : Backend • OS • Networking • AI • Embedded
-Approach   : Build first. Debug everything.
-```
-
-- 💻 Building backend systems and REST APIs
-- 🐧 Daily-driving Linux and experimenting with **Arch**
-- ⚙️ Learning operating systems and low-level programming
-- 🤖 Building AI applications using **LLMs + RAG**
-- 🔌 Working with **ESP32 and embedded systems**
-- 🌐 Interested in networking, distributed systems and secure software
-- 🧠 Currently strengthening DSA, system design and backend architecture
+- 💻 Backend developer interested in building real-world systems
+- 🧠 Interested in **system architecture, networking and secure software**
+- 🐧 Linux user
+- 🤖 Exploring **AI, LLMs and RAG**
+- 🔌 Building with **IoT, ESP and embedded systems**
+- 🖥️ Exploring **Operating Systems and low-level programming**
+- 🌐 Building and working with **APIs, databases and backend services**
+- 📚 Practicing **DSA and problem solving**
+- 🛠️ I learn best by building, debugging and experimenting
 
 ---
 
-## 🚀 What I'm Building
+## 🚀 What I Build
 
 <table>
 <tr>
 
 <td width="50%">
 
-### 📚 Study_GPT
+### ⚙️ Backend Systems
 
-AI-powered study assistant using Retrieval-Augmented Generation.
-
-**Stack**
-
-`Python` `FastAPI` `ChromaDB` `Qwen`
+Building APIs and backend applications with a focus on clean architecture, databases and reliable server-side logic.
 
 </td>
 
 <td width="50%">
 
-### 🚗 Unmanned Vehicle
+### 🤖 AI + RAG
 
-Experimental autonomous vehicle system combining sensors, ESP32 and computer vision.
-
-**Stack**
-
-`ESP32` `ESP32-CAM` `Python` `Flask`
+Building applications that integrate **LLMs, retrieval and AI capabilities** into practical systems.
 
 </td>
 
@@ -82,25 +69,17 @@ Experimental autonomous vehicle system combining sensors, ESP32 and computer vis
 
 <td width="50%">
 
-### 🖥️ MyOS
+### 🔌 IoT & Embedded
 
-Learning operating systems from the boot process upward.
-
-**Exploring**
-
-`C` `Assembly` `GRUB` `Linux Kernel` `QEMU`
+Working with microcontrollers, sensors, communication and hardware-software integration.
 
 </td>
 
 <td width="50%">
 
-### 🔐 Security & Systems
+### 🖥️ Operating Systems
 
-Exploring Linux, networking, system internals and secure backend architecture.
-
-**Interests**
-
-`Linux` `Networking` `Security` `Systems`
+Exploring operating systems, low-level programming, computer architecture and how software interacts with hardware.
 
 </td>
 
@@ -109,29 +88,29 @@ Exploring Linux, networking, system internals and secure backend architecture.
 
 ---
 
-## 🐧 Linux btw
+## 🔥 Featured Projects
 
-<div align="center">
+### 📚 Study_GPT
 
-<img src="https://img.shields.io/badge/I_USE_ARCH-BTW-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white" />
+An AI-powered study assistant built around **Retrieval-Augmented Generation**, designed to retrieve relevant study material and generate contextual responses.
 
-```text
-              .--.
-             |o_o |
-             |:_/ |
-            //   \ \
-           (|     | )
-          /'\_   _/`\
-          \___)=(___/
+**Python • FastAPI • ChromaDB • RAG • LLM**
 
-             ARCH LINUX
-```
+---
 
-</div>
+### 🚗 Unmanned Vehicle
 
-I like understanding what's happening underneath the abstractions.
+An experimental vehicle project combining embedded systems, sensors, computer vision and backend communication.
 
-From configuring Linux to experimenting with kernels, bootloaders, QEMU and low-level C — systems programming is one of the areas I enjoy exploring.
+**ESP • ESP-CAM • Python • Flask • IoT**
+
+---
+
+### 🖥️ Operating System Projects
+
+Exploring operating-system development and low-level programming through C, assembly, boot processes and virtualization.
+
+**C • Assembly • OS • Linux • QEMU**
 
 ---
 
@@ -139,124 +118,134 @@ From configuring Linux to experimenting with kernels, bootloaders, QEMU and low-
 
 <div align="center">
 
-### Languages
+### 💻 Programming Languages
 
 <img src="https://skillicons.dev/icons?i=c,java,python,js" />
 
-### Backend
+<br/><br/>
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,flask" />
+### 🌐 Backend
 
-### Databases
+<img src="https://skillicons.dev/icons?i=nodejs,express,flask" />
 
-<img src="https://skillicons.dev/icons?i=mongodb,mysql,sqlite" />
+<br/><br/>
 
-### AI / ML
+### 🗄️ Databases
 
-<img src="https://skillicons.dev/icons?i=python,pytorch" />
+<img src="https://skillicons.dev/icons?i=sqlite,mongodb,postgres,mysql" />
 
-### Embedded / Systems
+<br/><br/>
 
-<img src="https://skillicons.dev/icons?i=arduino,linux" />
+### 🔌 Embedded / IoT
 
-### Tools
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,docker" />
-
-</div>
-
----
-
-## 🧠 Currently Learning
-
-<div align="center">
-
-```text
-              ┌──────────────────┐
-              │  BACKEND SYSTEMS │
-              └────────┬─────────┘
-                       │
-                       ▼
-              ┌──────────────────┐
-              │   DISTRIBUTED    │
-              │     SYSTEMS      │
-              └────────┬─────────┘
-                       │
-                       ▼
-              ┌──────────────────┐
-              │ LINUX / OS / C   │
-              └────────┬─────────┘
-                       │
-                       ▼
-              ┌──────────────────┐
-              │ NETWORKING /     │
-              │ SECURITY         │
-              └────────┬─────────┘
-                       │
-                       ▼
-              ┌──────────────────┐
-              │   AI + LLM + RAG │
-              └──────────────────┘
-```
-
-</div>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Rishikeshn2007&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" />
-
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rishikeshn2007&layout=compact&hide_border=true&theme=transparent" />
-
-</div>
-
----
-
-## 🔥 Contribution Graph
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Rishikeshn2007/Rishikeshn2007/output/github-snake.svg" alt="GitHub Contribution Snake" />
-
-</div>
-
----
-
-## 🐍 Watch My Contributions
-
-<div align="center">
-
-<p>
-  <img src="https://raw.githubusercontent.com/Rishikeshn2007/Rishikeshn2007/output/github-snake-dark.svg" alt="GitHub Snake Animation" />
-</p>
-
-</div>
-
----
-
-## 💭 Developer Philosophy
-
-<div align="center">
-
-```text
-Don't just use the abstraction.
-
-Understand what's underneath it.
-```
-
-</div>
-
----
-
-<div align="center">
-
-### ⚡ Build systems. Break systems. Understand systems.
+<img src="https://skillicons.dev/icons?i=arduino,raspberrypi" />
 
 <br/>
 
-⭐ Thanks for visiting my profile!
+<img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white" />
+<img src="https://img.shields.io/badge/Embedded%20Systems-222222?style=for-the-badge&logo=arduino&logoColor=white" />
+<img src="https://img.shields.io/badge/IoT-00A98F?style=for-the-badge&logo=internetofthings&logoColor=white" />
+
+<br/><br/>
+
+### 🧠 Computer Science
+
+<img src="https://img.shields.io/badge/Data%20Structures%20%26%20Algorithms-00599C?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Operating%20Systems-222222?style=for-the-badge&logo=linux&logoColor=white" />
+<img src="https://img.shields.io/badge/Networking-1679A7?style=for-the-badge" />
+
+<br/><br/>
+
+### 🛠️ Tools & Environment
+
+<img src="https://skillicons.dev/icons?i=git,github,linux,vscode,postman" />
+
+</div>
+
+---
+
+## 🧠 Currently Exploring
+
+<div align="center">
+
+```text
+                    ┌─────────────────┐
+                    │  BACKEND        │
+                    └────────┬────────┘
+                             │
+                             ▼
+                    ┌─────────────────┐
+                    │  SYSTEM DESIGN  │
+                    └────────┬────────┘
+                             │
+                             ▼
+                    ┌─────────────────┐
+                    │ NETWORKING / OS │
+                    └────────┬────────┘
+                             │
+                             ▼
+                    ┌─────────────────┐
+                    │ EMBEDDED / IoT  │
+                    └────────┬────────┘
+                             │
+                             ▼
+                    ┌─────────────────┐
+                    │   AI + RAG      │
+                    └─────────────────┘
+```
+
+</div>
+
+---
+
+## 💡 My Approach
+
+<div align="center">
+
+```text
+Learn
+  ↓
+Build
+  ↓
+Break
+  ↓
+Debug
+  ↓
+Understand
+  ↓
+Build Better
+```
+
+</div>
+
+I believe the best way to learn technology is to **build things, break things, and understand why they broke.**
+
+---
+
+## 📊 GitHub
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Rishikeshn2007&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" />
+
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rishikeshn2007&layout=compact&hide_border=true&theme=transparent" />
+
+</div>
+
+---
+
+<div align="center">
+
+```text
+╔══════════════════════════════════════════════════╗
+║                                                  ║
+║        BUILD SYSTEMS. UNDERSTAND SYSTEMS.       ║
+║                                                  ║
+╚══════════════════════════════════════════════════╝
+```
+
+### Thanks for visiting my profile! 👋
 
 </div>
