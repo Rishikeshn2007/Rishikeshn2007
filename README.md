@@ -1,73 +1,111 @@
 <div align="center">
 
-# Hi there 👋 I'm Rishikesh
+# 👋 Hi, I'm Rishikesh
 
-### Building systems, breaking things, and learning how they work ⚙️
-
-**Backend Developer • Systems Builder • Linux Enthusiast**
-
-Building backend systems, AI-powered applications, embedded projects and low-level software.
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=00E5FF&center=true&vCenter=true&repeat=true&width=650&height=55&lines=Backend+Developer;Systems+Builder;Linux+Enthusiast;AI+%2B+RAG+Developer;Embedded+Systems+Explorer;Learning+How+Computers+Actually+Work" alt="Typing SVG" />
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=Rishikeshn2007&style=for-the-badge&color=0e75b6)
-
-[![GitHub](https://img.shields.io/badge/GitHub-Rishikeshn2007-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rishikeshn2007)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rishikesh%20N-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Coming%20Soon-00eaff?style=for-the-badge)](#)
+[![GitHub](https://img.shields.io/badge/GitHub-Rishikeshn2007-181717?style=for-the-badge&logo=github)](https://github.com/Rishikeshn2007)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Rishikesh%20N-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/)
+[![Profile Views](https://komarev.com/ghpvc/?username=Rishikeshn2007&style=for-the-badge)](https://github.com/Rishikeshn2007)
 
 </div>
 
 ---
 
-## About Me
+<div align="center">
 
-- 💻 Backend developer focused on building real-world systems
-- ⚙️ Interested in **backend architecture, distributed systems and secure software**
-- 🐧 Linux user — currently running **Arch Linux**
-- 🤖 Exploring **AI, LLMs and RAG** as tools to enhance backend systems
-- 🔌 Building projects with **ESP32 and embedded systems**
-- 🧠 Learning **Operating Systems and low-level programming**
-- 🌐 Experienced with REST APIs, databases and server-side development
-- 🛠️ I prefer building and debugging over tutorial hell
-- 🚀 Currently focused on becoming a stronger **systems-oriented developer**
+```text
+┌──────────────────────────────────────────────────────┐
+│                                                      │
+│   BUILD → BREAK → DEBUG → UNDERSTAND → REBUILD      │
+│                                                      │
+└──────────────────────────────────────────────────────┘
+```
+
+</div>
+
+## ⚙️ About Me
+
+```text
+Name       : Rishikesh
+Focus      : Backend & Systems
+Environment: Linux / Arch
+Languages  : C • Java • Python • JavaScript
+Interests  : Backend • OS • Networking • AI • Embedded
+Approach   : Build first. Debug everything.
+```
+
+- 💻 Building backend systems and REST APIs
+- 🐧 Daily-driving Linux and experimenting with **Arch**
+- ⚙️ Learning operating systems and low-level programming
+- 🤖 Building AI applications using **LLMs + RAG**
+- 🔌 Working with **ESP32 and embedded systems**
+- 🌐 Interested in networking, distributed systems and secure software
+- 🧠 Currently strengthening DSA, system design and backend architecture
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 What I'm Building
+
+<table>
+<tr>
+
+<td width="50%">
 
 ### 📚 Study_GPT
 
-An AI-powered study assistant using **RAG** to retrieve relevant information from study material and generate contextual answers.
+AI-powered study assistant using Retrieval-Augmented Generation.
 
-**Stack:** Python • FastAPI • ChromaDB • Sentence Transformers • Qwen
+**Stack**
 
----
+`Python` `FastAPI` `ChromaDB` `Qwen`
+
+</td>
+
+<td width="50%">
 
 ### 🚗 Unmanned Vehicle
 
-An experimental autonomous/driverless vehicle project combining embedded hardware, sensors, computer vision and backend coordination.
+Experimental autonomous vehicle system combining sensors, ESP32 and computer vision.
 
-**Stack:** ESP32-CAM • ESP32 • Python • Flask • Sensors • Computer Vision
+**Stack**
 
----
+`ESP32` `ESP32-CAM` `Python` `Flask`
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%">
 
 ### 🖥️ MyOS
 
-My journey into understanding operating systems from the ground up.
+Learning operating systems from the boot process upward.
 
-Exploring:
+**Exploring**
 
-- Boot process
-- GRUB
-- Linux kernel
-- Kernel development
-- C
-- Assembly
-- QEMU
-- Filesystems and system components
+`C` `Assembly` `GRUB` `Linux Kernel` `QEMU`
 
-> Learning how computers work underneath the applications.
+</td>
+
+<td width="50%">
+
+### 🔐 Security & Systems
+
+Exploring Linux, networking, system internals and secure backend architecture.
+
+**Interests**
+
+`Linux` `Networking` `Security` `Systems`
+
+</td>
+
+</tr>
+</table>
 
 ---
 
@@ -75,106 +113,93 @@ Exploring:
 
 <div align="center">
 
-### Arch Linux
+<img src="https://img.shields.io/badge/I_USE_ARCH-BTW-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white" />
 
 ```text
-┌──────────────────────────────────────────┐
-│                                          │
-│             I USE ARCH BTW               │
-│                                          │
-│        Build • Break • Fix • Repeat      │
-│                                          │
-└──────────────────────────────────────────┘
+              .--.
+             |o_o |
+             |:_/ |
+            //   \ \
+           (|     | )
+          /'\_   _/`\
+          \___)=(___/
+
+             ARCH LINUX
 ```
 
 </div>
 
-Linux is not just an environment for me — it's part of the learning process.
+I like understanding what's happening underneath the abstractions.
 
-I use Linux for development, networking, system programming, embedded work and experimenting with operating systems.
+From configuring Linux to experimenting with kernels, bootloaders, QEMU and low-level C — systems programming is one of the areas I enjoy exploring.
 
 ---
 
 ## 🧰 Tech Stack
 
+<div align="center">
+
 ### Languages
 
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+<img src="https://skillicons.dev/icons?i=c,java,python,js" />
 
 ### Backend
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![REST API](https://img.shields.io/badge/REST-API-02569B?style=for-the-badge)
+<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,flask" />
 
 ### Databases
 
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,sqlite" />
 
 ### AI / ML
 
-![Python](https://img.shields.io/badge/Python-ML-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![RAG](https://img.shields.io/badge/RAG-Systems-8A2BE2?style=for-the-badge)
-![LLM](https://img.shields.io/badge/LLM-Integration-000000?style=for-the-badge)
+<img src="https://skillicons.dev/icons?i=python,pytorch" />
 
 ### Embedded / Systems
 
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
-![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)
-![QEMU](https://img.shields.io/badge/QEMU-FF6600?style=for-the-badge)
+<img src="https://skillicons.dev/icons?i=arduino,linux" />
 
 ### Tools
 
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,docker" />
+
+</div>
 
 ---
 
-## 🔥 What I'm Currently Learning
+## 🧠 Currently Learning
+
+<div align="center">
 
 ```text
-Backend Architecture
-        ↓
-Distributed Systems
-        ↓
-Linux & Operating Systems
-        ↓
-Networking & Security
-        ↓
-AI / LLM Integration
-        ↓
-Building Stronger Systems
+              ┌──────────────────┐
+              │  BACKEND SYSTEMS │
+              └────────┬─────────┘
+                       │
+                       ▼
+              ┌──────────────────┐
+              │   DISTRIBUTED    │
+              │     SYSTEMS      │
+              └────────┬─────────┘
+                       │
+                       ▼
+              ┌──────────────────┐
+              │ LINUX / OS / C   │
+              └────────┬─────────┘
+                       │
+                       ▼
+              ┌──────────────────┐
+              │ NETWORKING /     │
+              │ SECURITY         │
+              └────────┬─────────┘
+                       │
+                       ▼
+              ┌──────────────────┐
+              │   AI + LLM + RAG │
+              └──────────────────┘
 ```
 
----
-
-## 🧪 Things I Like Building
-
-```text
-┌─────────────────────────────────────┐
-│                                     │
-│  Backend APIs                       │
-│  Distributed Systems                │
-│  AI + RAG Applications              │
-│  Embedded Systems                   │
-│  Autonomous Vehicles               │
-│  Operating Systems                  │
-│  Linux Tools                        │
-│  Security Experiments               │
-│                                     │
-└─────────────────────────────────────┘
-```
+</div>
 
 ---
 
@@ -182,27 +207,53 @@ Building Stronger Systems
 
 <div align="center">
 
-![Rishikesh's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Rishikeshn2007&show_icons=true&hide_border=true&rank_icon=github)
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=Rishikeshn2007&show_icons=true&hide_border=true&rank_icon=github&theme=transparent" />
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Rishikeshn2007&layout=compact&hide_border=true)
-
-</div>
-
----
-
-## 🐍 Contribution Snake
-
-<div align="center">
-
-![Snake animation](https://raw.githubusercontent.com/Rishikeshn2007/Rishikeshn2007/output/github-contribution-grid-snake.svg)
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rishikeshn2007&layout=compact&hide_border=true&theme=transparent" />
 
 </div>
 
 ---
 
+## 🔥 Contribution Graph
+
 <div align="center">
 
-### "Understand the system. Build the system."
+<img src="https://raw.githubusercontent.com/Rishikeshn2007/Rishikeshn2007/output/github-snake.svg" alt="GitHub Contribution Snake" />
+
+</div>
+
+---
+
+## 🐍 Watch My Contributions
+
+<div align="center">
+
+<p>
+  <img src="https://raw.githubusercontent.com/Rishikeshn2007/Rishikeshn2007/output/github-snake-dark.svg" alt="GitHub Snake Animation" />
+</p>
+
+</div>
+
+---
+
+## 💭 Developer Philosophy
+
+<div align="center">
+
+```text
+Don't just use the abstraction.
+
+Understand what's underneath it.
+```
+
+</div>
+
+---
+
+<div align="center">
+
+### ⚡ Build systems. Break systems. Understand systems.
 
 <br/>
 
