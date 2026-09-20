@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>README Preview</title>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown-dark.min.css">
+  <style>
+    body {
+      background-color: #0d1117;
+      color: #c9d1d9;
+      padding: 30px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+    }
+
+    .markdown-body {
+      box-sizing: border-box;
+      min-width: 200px;
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 45px;
+      background-color: #0d1117;
+    }
+  </style>
+</head>
+
+<body class="markdown-body">
+  <div align="center">
+
+    <a target="_blank" rel="noopener noreferrer nofollow"
+      href="https://camo.githubusercontent.com/5476f44d388c5d09cba23b70ecc89fc7382489a98b30a271b3d03dfb46d77e42/68747470733a2f2f63617073756c652d72656e6465722e76657263656c2e6170702f6170693f747970653d776176696e6726636f6c6f723d6772616469656e7426637573746f6d5f636f6c6f723d303a3030453546462c35303a3064313131372c3130303a373932384341266865696768743d3232302673656374696f6e3d68656164657226746578743d486925323074686572652c25323049276d25323052697368696b657368253230f09f918b26666f6e7453697a653d333826666f6e74436f6c6f723d66666666666626666f6e74416c69676e593d333826646573633d53797374656d732532304275696c6465722532302537432532304261636b656e64253230456e67696e656572253230253743253230496f54253230253236253230526f626f746963732532302537432532304149253230253236253230524147266465736353697a653d31362664657363416c69676e593d36322664657363436f6c6f723d303045354646"><img
+        src="https://camo.githubusercontent.com/5476f44d388c5d09cba23b70ecc89fc7382489a98b30a271b3d03dfb46d77e42/68747470733a2f2f63617073756c652d72656e6465722e76657263656c2e6170702f6170693f747970653d776176696e6726636f6c6f723d6772616469656e7426637573746f6d5f636f6c6f723d303a3030453546462c35303a3064313131372c3130303a373932384341266865696768743d3232302673656374696f6e3d68656164657226746578743d486925323074686572652c25323049276d25323052697368696b657368253230f09f918b26666f6e7453697a653d333826666f6e74436f6c6f723d66666666666626666f6e74416c69676e593d333826646573633d53797374656d732532304275696c6465722532302537432532304261636b656e64253230456e67696e656572253230253743253230496f54253230253236253230526f626f746963732532302537432532304149253230253236253230524147266465736353697a653d31362664657363416c69676e593d36322664657363436f6c6f723d303045354646"
+        width="100%" alt="Header Banner"
+        data-canonical-src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;custom_color=0:00E5FF,50:0d1117,100:7928CA&amp;height=220&amp;section=header&amp;text=Hi%20there,%20I'm%20Rishikesh%20👋&amp;fontSize=38&amp;fontColor=ffffff&amp;fontAlignY=38&amp;desc=Systems%20Builder%20%7C%20Backend%20Engineer%20%7C%20IoT%20%26%20Robotics%20%7C%20AI%20%26%20RAG&amp;descSize=16&amp;descAlignY=62&amp;descColor=00E5FF"
+        style="max-width: 100%;"></a>
+
+    <a target="_blank" rel="noopener noreferrer nofollow"
+      href="https://camo.githubusercontent.com/45881a74012983fe074b3dc440933224f638b946a8590efb4e136d0e545c2b12/68747470733a2f2f726561646d652d747970696e672d7376672e64656d6f6c61622e636f6d3f666f6e743d466972612b436f6465267765696768743d3630302673697a653d3231266475726174696f6e3d323830302670617573653d39303026636f6c6f723d3030453546462663656e7465723d74727565267643656e7465723d74727565267265706561743d747275652677696474683d373530266865696768743d3530266c696e65733d4275696c64696e672b5363616c61626c652b4261636b656e642b53797374656d733b4578706c6f72696e672b4f532b4b65726e656c732b2532362b4c6f772d4c6576656c2b417263686974656374757265733b4175746f6e6f6d6f75732b56656869636c65732b2532362b456d6265646465642b496f543b41492b2532362b52657472696576616c2d4175676d656e7465642b47656e65726174696f6e2b28524147293b576946692b5370617469616c2b496e74656c6c6967656e63652b2532362b5369676e616c2b53656e73696e673b5475726e696e672b436f6d706c65782b50726f626c656d732b696e746f2b526f627573742b536f667477617265"><img
+        src="https://camo.githubusercontent.com/45881a74012983fe074b3dc440933224f638b946a8590efb4e136d0e545c2b12/68747470733a2f2f726561646d652d747970696e672d7376672e64656d6f6c61622e636f6d3f666f6e743d466972612b436f6465267765696768743d3630302673697a653d3231266475726174696f6e3d323830302670617573653d39303026636f6c6f723d3030453546462663656e7465723d74727565267643656e7465723d74727565267265706561743d747275652677696474683d373530266865696768743d3530266c696e65733d4275696c64696e672b5363616c61626c652b4261636b656e642b53797374656d733b4578706c6f72696e672b4f532b4b65726e656c732b2532362b4c6f772d4c6576656c2b417263686974656374757265733b4175746f6e6f6d6f75732b56656869636c65732b2532362b456d6265646465642b496f543b41492b2532362b52657472696576616c2d4175676d656e7465642b47656e65726174696f6e2b28524147293b576946692b5370617469616c2b496e74656c6c6967656e63652b2532362b5369676e616c2b53656e73696e673b5475726e696e672b436f6d706c65782b50726f626c656d732b696e746f2b526f627573742b536f667477617265"
+        alt="Typing SVG"
+        data-canonical-src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=21&amp;duration=2800&amp;pause=900&amp;color=00E5FF&amp;center=true&amp;vCenter=true&amp;repeat=true&amp;width=750&amp;height=50&amp;lines=Building+Scalable+Backend+Systems;Exploring+OS+Kernels+%26+Low-Level+Architectures;Autonomous+Vehicles+%26+Embedded+IoT;AI+%26+Retrieval-Augmented+Generation+(RAG);WiFi+Spatial+Intelligence+%26+Signal+Sensing;Turning+Complex+Problems+into+Robust+Software"
+        style="max-width: 100%;"></a>
+    <br>
+
+    <p><a href="https://github.com/Rishikeshn2007"><img
+          src="https://camo.githubusercontent.com/df34a496ed6a0309faa065e9bd9158e210ee6bedfcbed6c2633d64966f973bc9/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4769744875622d52697368696b6573686e323030372d3030453546463f7374796c653d666f722d7468652d6261646765266c6f676f3d676974687562266c6f676f436f6c6f723d306431313137"
+          alt="GitHub"
+          data-canonical-src="https://img.shields.io/badge/GitHub-Rishikeshn2007-00E5FF?style=for-the-badge&amp;logo=github&amp;logoColor=0d1117"
+          style="max-width: 100%;"></a><br>
+      <a href="https://github.com/Rishikeshn2007"><img
+          src="https://camo.githubusercontent.com/e33bdbe07ed480badeb606a1207dc208acc4c442e71d740986a37f2dd1ee114f/68747470733a2f2f6b6f6d617265762e636f6d2f67687076632f3f757365726e616d653d52697368696b6573686e32303037267374796c653d666f722d7468652d626164676526636f6c6f723d303045354646"
+          alt="Profile Views"
+          data-canonical-src="https://komarev.com/ghpvc/?username=Rishikeshn2007&amp;style=for-the-badge&amp;color=00E5FF"
+          style="max-width: 100%;"></a><br>
+      <a href="https://github.com/Rishikeshn2007"><img
+          src="https://camo.githubusercontent.com/128aa9a4a5e4854a39dc1b1c7952a0c1ca789d90d3df273146cbc4bfc10b796f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5374617475732d4275696c64696e6725323053797374656d732d3739323843413f7374796c653d666f722d7468652d6261646765266c6f676f3d636f6465666163746f72266c6f676f436f6c6f723d7768697465"
+          alt="Status"
+          data-canonical-src="https://img.shields.io/badge/Status-Building%20Systems-7928CA?style=for-the-badge&amp;logo=codefactor&amp;logoColor=white"
+          style="max-width: 100%;"></a><br>
+      <a href="https://github.com/Rishikeshn2007"><img
+          src="https://camo.githubusercontent.com/fa23ea7197fdaac4210441ecf69932889792136ef11a7751b94673c4855947b9/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4f532d4c696e757825323045766572796461792d4643433632343f7374796c653d666f722d7468652d6261646765266c6f676f3d6c696e7578266c6f676f436f6c6f723d626c61636b"
+          alt="OS"
+          data-canonical-src="https://img.shields.io/badge/OS-Linux%20Everyday-FCC624?style=for-the-badge&amp;logo=linux&amp;logoColor=black"
+          style="max-width: 100%;"></a>
+    </p>
+  </div>
+
+  <p><a target="_blank" rel="noopener noreferrer nofollow"
+      href="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif"><img
+        src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif"
+        width="100%" height="2" style="max-width: 100%; height: auto; max-height: 2px;"></a></p>
+  <br>
+
+  <markdown-accessiblity-table>
+    <table role="table">
+      <tbody>
+        <tr>
+          <td width="55%" valign="top">
+            <h3>⚡ About Me</h3>
+            <div class="highlight highlight-source-shell">
+              <pre
+                class="notranslate">rishi@archlinux:<span class="pl-k">~</span>$ whoami
+<span class="pl-k">&gt;</span> Systems Architect, Backend Engineer <span class="pl-k">&amp;</span> Low-Level Explorer
+
+rishi@archlinux:<span class="pl-k">~</span>$ cat philosophy.txt
+<span class="pl-k">&gt;</span> <span class="pl-s"><span class="pl-pds">"</span>Build systems. Break systems. Debug systems. Understand every layer.<span class="pl-pds">"</span></span></pre>
+            </div>
+            <ul>
+              <li>💻 <strong>Backend Engineering</strong>: Designing resilient APIs, database schemas, and
+                microservices.</li>
+              <li>🧠 <strong>Systems &amp; Architecture</strong>: Exploring <strong>OS kernels, memory management, and
+                  networking</strong>.</li>
+              <li>🔌 <strong>IoT &amp; Autonomous Robotics</strong>: Developing firmware for <strong>ESP32, sensors, and
+                  computer-vision rovers</strong>.</li>
+              <li>🤖 <strong>AI &amp; RAG Systems</strong>: Building context-aware assistants using <strong>LLMs, vector
+                  databases (ChromaDB), and retrieval pipelines</strong>.</li>
+              <li>📡 <strong>Spatial Signal Sensing</strong>: Creator of <strong>RuView</strong>, using ambient WiFi
+                signals for presence and motion tracking.</li>
+              <li>🐧 <strong>Linux Power User</strong>: Terminal-driven workflow, shell scripting, and low-level
+                tooling.</li>
+            </ul>
+          </td>
+          <td width="45%" align="center" valign="middle">
+
+            <a target="_blank" rel="noopener noreferrer nofollow"
+              href="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif"><img
+                src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif"
+                width="95%" alt="Developer Coding Animation" style="max-width: 100%;"></a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </markdown-accessiblity-table>
+  <br>
+
+  <p><a target="_blank" rel="noopener noreferrer nofollow"
+      href="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif"><img
+        src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif"
+        width="100%" height="2" style="max-width: 100%; height: auto; max-height: 2px;"></a></p>
+  <br>
+
+  <div align="center">
+    <h2>📊 Contribution Matrix &amp; Live Activity</h2>
+    <blockquote>
+      <p><em>"Consistency isn't about perfection; it's about pushing bits forward every single day."</em></p>
+    </blockquote>
+    <br>
+
+    <h3>🐍 Contribution Graph Eater</h3>
+    <themed-picture data-catalyst-inline="true">
+      <picture>
+        <source media="(prefers-color-scheme: dark)"
+          srcset="https://raw.githubusercontent.com/Rishikeshn2007/Rishikeshn2007/output/github-snake-dark.svg">
+        <source media="(prefers-color-scheme: light)"
+          srcset="https://raw.githubusercontent.com/Rishikeshn2007/Rishikeshn2007/output/github-snake.svg">
+        <img alt="GitHub Contribution Snake"
+          src="https://raw.githubusercontent.com/Rishikeshn2007/Rishikeshn2007/output/github-snake-dark.svg"
+          width="95%">
+      </picture>
+    </themed-picture>
+    <p><br><br></p>
+
+    <markdown-accessiblity-table>
+      <table role="table">
+        <tbody>
+          <tr>
+            <td align="center" width="50%">
+              <a target="_blank" rel="noopener noreferrer nofollow"
+                href="https://camo.githubusercontent.com/9106ddd84185ef444082d438f1284d36c1dfed1b0fbaaa9e60460874c6dee8c2/68747470733a2f2f73747265616b2d73746174732e64656d6f6c61622e636f6d3f757365723d52697368696b6573686e32303037267468656d653d746f6b796f2d6e6967687426686964655f626f726465723d7472756526626f726465725f7261646975733d382672696e673d30304535464626666972653d303045354646266375727253747265616b4e756d3d30304535464626736964654e756d733d4532453846302664617465733d393441334238"><img
+                  src="https://camo.githubusercontent.com/9106ddd84185ef444082d438f1284d36c1dfed1b0fbaaa9e60460874c6dee8c2/68747470733a2f2f73747265616b2d73746174732e64656d6f6c61622e636f6d3f757365723d52697368696b6573686e32303037267468656d653d746f6b796f2d6e6967687426686964655f626f726465723d7472756526626f726465725f7261646975733d382672696e673d30304535464626666972653d303045354646266375727253747265616b4e756d3d30304535464626736964654e756d733d4532453846302664617465733d393441334238"
+                  alt="GitHub Streak" width="100%"
+                  data-canonical-src="https://streak-stats.demolab.com?user=Rishikeshn2007&amp;theme=tokyo-night&amp;hide_border=true&amp;border_radius=8&amp;ring=00E5FF&amp;fire=00E5FF&amp;currStreakNum=00E5FF&amp;sideNums=E2E8F0&amp;dates=94A3B8"
+                  style="max-width: 100%;"></a>
+            </td>
+            <td align="center" width="50%">
+              <a target="_blank" rel="noopener noreferrer nofollow"
+                href="https://camo.githubusercontent.com/db84340c72726f402cd22ed55d89b198c82cb22858b7e9d7d18cfafe50571796/68747470733a2f2f6769746875622d726561646d652d73746174732d666173742e76657263656c2e6170702f6170693f757365726e616d653d52697368696b6573686e323030372673686f775f69636f6e733d74727565267468656d653d746f6b796f2d6e6967687426686964655f626f726465723d74727565267469746c655f636f6c6f723d3030453546462669636f6e5f636f6c6f723d30304535464626746578745f636f6c6f723d3934413342382662675f636f6c6f723d30643131313726626f726465725f7261646975733d38"><img
+                  src="https://camo.githubusercontent.com/db84340c72726f402cd22ed55d89b198c82cb22858b7e9d7d18cfafe50571796/68747470733a2f2f6769746875622d726561646d652d73746174732d666173742e76657263656c2e6170702f6170693f757365726e616d653d52697368696b6573686e323030372673686f775f69636f6e733d74727565267468656d653d746f6b796f2d6e6967687426686964655f626f726465723d74727565267469746c655f636f6c6f723d3030453546462669636f6e5f636f6c6f723d30304535464626746578745f636f6c6f723d3934413342382662675f636f6c6f723d30643131313726626f726465725f7261646975733d38"
+                  alt="GitHub Stats" width="100%"
+                  data-canonical-src="https://github-readme-stats-fast.vercel.app/api?username=Rishikeshn2007&amp;show_icons=true&amp;theme=tokyo-night&amp;hide_border=true&amp;title_color=00E5FF&amp;icon_color=00E5FF&amp;text_color=94A3B8&amp;bg_color=0d1117&amp;border_radius=8"
+                  style="max-width: 100%;"></a>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" align="center">
+              <a target="_blank" rel="noopener noreferrer nofollow"
+                href="https://camo.githubusercontent.com/c176ee85403ad563f030c79fb30dbb8a68edb5b1184813f730af4aa904b453f2/68747470733a2f2f6769746875622d726561646d652d73746174732d666173742e76657263656c2e6170702f6170692f746f702d6c616e67732f3f757365726e616d653d52697368696b6573686e32303037266c61796f75743d636f6d70616374267468656d653d746f6b796f2d6e6967687426686964655f626f726465723d74727565267469746c655f636f6c6f723d30304535464626746578745f636f6c6f723d3934413342382662675f636f6c6f723d30643131313726626f726465725f7261646975733d38"><img
+                  src="https://camo.githubusercontent.com/c176ee85403ad563f030c79fb30dbb8a68edb5b1184813f730af4aa904b453f2/68747470733a2f2f6769746875622d726561646d652d73746174732d666173742e76657263656c2e6170702f6170692f746f702d6c616e67732f3f757365726e616d653d52697368696b6573686e32303037266c61796f75743d636f6d70616374267468656d653d746f6b796f2d6e6967687426686964655f626f726465723d74727565267469746c655f636f6c6f723d30304535464626746578745f636f6c6f723d3934413342382662675f636f6c6f723d30643131313726626f726465725f7261646975733d38"
+                  alt="Top Languages" width="65%"
+                  data-canonical-src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Rishikeshn2007&amp;layout=compact&amp;theme=tokyo-night&amp;hide_border=true&amp;title_color=00E5FF&amp;text_color=94A3B8&amp;bg_color=0d1117&amp;border_radius=8"
+                  style="max-width: 100%;"></a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </markdown-accessiblity-table>
+  </div>
+  <br>
+
+  <p><a target="_blank" rel="noopener noreferrer nofollow"
+      href="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif"><img
+        src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif"
+        width="100%" height="2" style="max-width: 100%; height: auto; max-height: 2px;"></a></p>
+  <br>
+  <h2>🚀 Engineering Domains &amp; What I Build</h2>
+  <markdown-accessiblity-table>
+    <table role="table">
+      <tbody>
+        <tr>
+          <td width="50%" valign="top">
+            <h3>⚙️ Backend &amp; Distributed Systems</h3>
+            <a target="_blank" rel="noopener noreferrer nofollow"
+              href="https://camo.githubusercontent.com/96d6d1003770909525f7778fbc07a61e87c04dd1218010f407dbd4a721ee9337/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f6475334a336358797a686a3735494f6776412f67697068792e676966"><img
+                align="right"
+                src="https://camo.githubusercontent.com/96d6d1003770909525f7778fbc07a61e87c04dd1218010f407dbd4a721ee9337/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f6475334a336358797a686a3735494f6776412f67697068792e676966"
+                width="60" data-canonical-src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif"
+                style="max-width: 100%;"></a>
+            <p>Engineering robust, low-latency server backends and reliable data systems.</p>
+            <ul>
+              <li>High-performance RESTful APIs &amp; WebSockets</li>
+              <li>Relational &amp; NoSQL database modeling and caching</li>
+              <li>Clean layered architecture &amp; asynchronous event queues</li>
+            </ul>
+            <p><code class="notranslate">Node.js</code> • <code class="notranslate">Express</code> • <code
+                class="notranslate">FastAPI</code> • <code class="notranslate">PostgreSQL</code> • <code
+                class="notranslate">MongoDB</code> • <code class="notranslate">Redis</code></p>
+          </td>
+          <td width="50%" valign="top">
+            <h3>🤖 AI, LLMs &amp; RAG Architectures</h3>
+            <a target="_blank" rel="noopener noreferrer nofollow"
+              href="https://camo.githubusercontent.com/91cf917befe36717ad76e32ac04a9429d9abc92c3eb3d19d154aae04a4e91b57/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f4c6d4e384f596959346d305838354b305a7a2f67697068792e676966"><img
+                align="right"
+                src="https://camo.githubusercontent.com/91cf917befe36717ad76e32ac04a9429d9abc92c3eb3d19d154aae04a4e91b57/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f4c6d4e384f596959346d305838354b305a7a2f67697068792e676966"
+                width="60" data-canonical-src="https://media.giphy.com/media/LmN8OYiY4m0X85K0Zz/giphy.gif"
+                style="max-width: 100%;"></a>
+            <p>Infusing state-of-the-art AI and retrieval techniques into real applications.</p>
+            <ul>
+              <li>Retrieval-Augmented Generation (RAG) pipelines</li>
+              <li>Semantic search &amp; vector indexing with ChromaDB</li>
+              <li>Local LLM orchestration &amp; prompt engineering</li>
+            </ul>
+            <p><code class="notranslate">Python</code> • <code class="notranslate">FastAPI</code> • <code
+                class="notranslate">ChromaDB</code> • <code class="notranslate">LangChain</code> • <code
+                class="notranslate">Embeddings</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td width="50%" valign="top">
+            <h3>🔌 Autonomous Robotics &amp; IoT</h3>
+            <a target="_blank" rel="noopener noreferrer nofollow"
+              href="https://camo.githubusercontent.com/660e8839e806a7a23f61b155be2e078a1cbd67f33c65b38994f8318cbd9e50f6/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f7167515567674143335066763638377150432f67697068792e676966"><img
+                align="right"
+                src="https://camo.githubusercontent.com/660e8839e806a7a23f61b155be2e078a1cbd67f33c65b38994f8318cbd9e50f6/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f7167515567674143335066763638377150432f67697068792e676966"
+                width="60" data-canonical-src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"
+                style="max-width: 100%;"></a>
+            <p>Connecting the physical world with intelligent software and telemetry.</p>
+            <ul>
+              <li>Microcontroller firmware on ESP32 &amp; Arduino</li>
+              <li>Real-time video streaming, sensor telemetry, and motor control</li>
+              <li>Computer vision edge integration and remote control dashboards</li>
+            </ul>
+            <p><code class="notranslate">ESP32</code> • <code class="notranslate">ESP-CAM</code> • <code
+                class="notranslate">C++</code> • <code class="notranslate">Flask</code> • <code
+                class="notranslate">WebSockets</code> • <code class="notranslate">Sensors</code></p>
+          </td>
+          <td width="50%" valign="top">
+            <h3>🖥️ Operating Systems &amp; Low-Level</h3>
+            <a target="_blank" rel="noopener noreferrer nofollow"
+              href="https://camo.githubusercontent.com/4502f84f8e296e5848f902f7dee32f2519014f3f705eb32c36f2d213a0812b25/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f336f4b49506e4169614d437773386e4f73452f67697068792e676966"><img
+                align="right"
+                src="https://camo.githubusercontent.com/4502f84f8e296e5848f902f7dee32f2519014f3f705eb32c36f2d213a0812b25/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f336f4b49506e4169614d437773386e4f73452f67697068792e676966"
+                width="60" data-canonical-src="https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif"
+                style="max-width: 100%;"></a>
+            <p>Understanding computing from bare-metal silicon up to the user space.</p>
+            <ul>
+              <li>C &amp; x86 Assembly programming and memory layouts</li>
+              <li>Exploring bootloaders, virtual memory paging, and kernel structures</li>
+              <li>Virtualized testing with QEMU and Linux syscall analysis</li>
+            </ul>
+            <p><code class="notranslate">C</code> • <code class="notranslate">Assembly</code> • <code
+                class="notranslate">Linux Kernel</code> • <code class="notranslate">QEMU</code> • <code
+                class="notranslate">GDB</code> • <code class="notranslate">POSIX</code></p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </markdown-accessiblity-table>
+  <br>
+
+  <p><a target="_blank" rel="noopener noreferrer nofollow"
+      href="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif"><img
+        src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif"
+        width="100%" height="2" style="max-width: 100%; height: auto; max-height: 2px;"></a></p>
+  <br>
+  <h2>🔥 Featured Projects</h2>
+  <markdown-accessiblity-table>
+    <table role="table">
+      <tbody>
+        <tr>
+          <td width="50%" valign="top">
+            <h3>📡 <a href="https://github.com/Rishikeshn2007/RuView">π RuView</a></h3>
+            <p><strong>WiFi Spatial Intelligence &amp; Presence Detection</strong></p>
+            <blockquote>
+              <p><em>Turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and
+                  presence detection — all without a single camera pixel.</em></p>
+            </blockquote>
+            <ul>
+              <li>Non-invasive motion and occupancy tracking via RF perturbation analysis.</li>
+              <li>Privacy-first alternative to video surveillance.</li>
+              <li>Real-time signal stream filtering and state inference.</li>
+            </ul>
+            <p><a href="#"><img
+                  src="https://camo.githubusercontent.com/467268b97d65c78472b1a2a82c3b2d72e9f87bd5db89e6c1e0f215eaa2f06a84/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f6d61696e2d5369676e616c253230496e74656c6c6967656e63652d3030453546463f7374796c653d666c61742d737175617265"
+                  alt="Tech"
+                  data-canonical-src="https://img.shields.io/badge/Domain-Signal%20Intelligence-00E5FF?style=flat-square"
+                  style="max-width: 100%;"></a><br>
+              <a href="#"><img
+                  src="https://camo.githubusercontent.com/5bc5ae2909540035f37432560b53eceafab3f41a7f40218041a4a2ae142475a9/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c616e67756167652d507974686f6e2d3337373641423f7374796c653d666c61742d737175617265266c6f676f3d707974686f6e266c6f676f436f6c6f723d7768697465"
+                  alt="Python"
+                  data-canonical-src="https://img.shields.io/badge/Language-Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white"
+                  style="max-width: 100%;"></a><br>
+              <a href="#"><img
+                  src="https://camo.githubusercontent.com/1e2af17b3a073b9f0c09c72e1f643895005887c58a754c366eb151e6e574c549/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f53656375726974792d5a65726f2d2d43616d657261253230507269766163792d737563636573733f7374796c653d666c61742d737175617265"
+                  alt="Privacy First"
+                  data-canonical-src="https://img.shields.io/badge/Security-Zero--Camera%20Privacy-success?style=flat-square"
+                  style="max-width: 100%;"></a>
+            </p>
+          </td>
+          <td width="50%" valign="top">
+            <h3>📚 <a href="https://github.com/Rishikeshn2007/Study_GPT">Study_GPT</a></h3>
+            <p><strong>AI-Powered RAG Study Assistant</strong></p>
+            <blockquote>
+              <p><em>Retrieval-Augmented Generation assistant that ingests academic course material, indexes semantic
+                  chunks, and delivers pinpoint answers.</em></p>
+            </blockquote>
+            <ul>
+              <li>Document chunking, vector embedding, and similarity search.</li>
+              <li>ChromaDB vector storage with high-speed query response.</li>
+              <li>Interactive backend API powered by FastAPI.</li>
+            </ul>
+            <p><a href="#"><img
+                  src="https://camo.githubusercontent.com/9bd2817dc84bc8757c7af56544ab43f1252cca8007fee0360d008c3ce95e67cb/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4150492d466173744150492d3030393638383f7374796c653d666c61742d737175617265266c6f676f3d66617374617069266c6f676f436f6c6f723d7768697465"
+                  alt="FastAPI"
+                  data-canonical-src="https://img.shields.io/badge/API-FastAPI-009688?style=flat-square&amp;logo=fastapi&amp;logoColor=white"
+                  style="max-width: 100%;"></a><br>
+              <a href="#"><img
+                  src="https://camo.githubusercontent.com/c05fc6a850ea293095a5b26d0b5dcbd327a0ec1af93a76d9c4dd0a4ba94abfc1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f566563746f7244422d4368726f6d6144422d4643363041383f7374796c653d666c61742d737175617265"
+                  alt="ChromaDB"
+                  data-canonical-src="https://img.shields.io/badge/VectorDB-ChromaDB-FC60A8?style=flat-square"
+                  style="max-width: 100%;"></a><br>
+              <a href="#"><img
+                  src="https://camo.githubusercontent.com/a7f764bb990af5c7052ab77a5867e61c64c1cd12a493122ff721cb3fc0bb5476/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f41492d524147253230506970656c696e652d3739323843413f7374796c653d666c61742d737175617265"
+                  alt="RAG" data-canonical-src="https://img.shields.io/badge/AI-RAG%20Pipeline-7928CA?style=flat-square"
+                  style="max-width: 100%;"></a>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td width="50%" valign="top">
+            <h3>🚗 <a href="https://github.com/Rishikeshn2007/Unmanned_vehicle-v2">Unmanned Vehicle v2</a></h3>
+            <p><strong>Autonomous Edge Rover &amp; Telemetry System</strong></p>
+            <blockquote>
+              <p><em>Autonomous vehicle combining embedded hardware, real-time sensor processing, remote live camera
+                  streaming, and computer vision.</em></p>
+            </blockquote>
+            <ul>
+              <li>ESP32-CAM onboard processing and bidirectional telemetry.</li>
+              <li>Flask-based remote command station and video stream.</li>
+              <li>Obstacle avoidance algorithms and motor driver integration.</li>
+            </ul>
+            <p><a href="#"><img
+                  src="https://camo.githubusercontent.com/3165d2766a5031a6e2463074d302c6d5dfa5008c8c117bfdddcb053b1842ac8f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f48617264776172652d45535033322d2d43414d2d4537333532433f7374796c653d666c61742d737175617265266c6f676f3d657370726573736966266c6f676f436f6c6f723d7768697465"
+                  alt="ESP32"
+                  data-canonical-src="https://img.shields.io/badge/Hardware-ESP32--CAM-E7352C?style=flat-square&amp;logo=espressif&amp;logoColor=white"
+                  style="max-width: 100%;"></a><br>
+              <a href="#"><img
+                  src="https://camo.githubusercontent.com/c0a14effbb51d4199f8d6c0fca9fc5672cc0a356a430eb0e48378c43b4736a01/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f496f542d54656c656d6574727925323025323625323043562d3030413938463f7374796c653d666c61742d737175617265"
+                  alt="IoT"
+                  data-canonical-src="https://img.shields.io/badge/IoT-Telemetry%20%26%20CV-00A98F?style=flat-square"
+                  style="max-width: 100%;"></a><br>
+              <a href="#"><img
+                  src="https://camo.githubusercontent.com/0ef68622f18cbd34c32c8f87375282264cadb99c318b1902e4ab8e017982503e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4261636b656e642d466c61736b2d3030303030303f7374796c653d666c61742d737175617265266c6f676f3d666c61736b266c6f676f436f6c6f723d7768697465"
+                  alt="Python"
+                  data-canonical-src="https://img.shields.io/badge/Backend-Flask-000000?style=flat-square&amp;logo=flask&amp;logoColor=white"
+                  style="max-width: 100%;"></a>
+            </p>
+          </td>
+          <td width="50%" valign="top">
+            <h3>🛡️ <a href="https://github.com/Rishikeshn2007/Watchtower">Watchtower</a></h3>
+            <p><strong>Systems, Network &amp; Infrastructure Telemetry</strong></p>
+            <blockquote>
+              <p><em>Telemetry daemon and health monitoring tool providing real-time metrics for backend services,
+                  network integrity, and Linux system resources.</em></p>
+            </blockquote>
+            <ul>
+              <li>Lightweight background monitoring agent.</li>
+              <li>Health-check endpoints and anomaly alert dispatch.</li>
+              <li>Real-time logging and performance telemetry metrics.</li>
+            </ul>
+            <p><a href="#"><img
+                  src="https://camo.githubusercontent.com/7c28826c8a8798a5b0d48048b25fe6fbb438e5901da717ee3bcb00232485f20c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f6d61696e2d53797374656d7325323025323625323054656c656d657472792d626c756576696f6c65743f7374796c653d666c61742d737175617265"
+                  alt="Systems"
+                  data-canonical-src="https://img.shields.io/badge/Domain-Systems%20%26%20Telemetry-blueviolet?style=flat-square"
+                  style="max-width: 100%;"></a><br>
+              <a href="#"><img
+                  src="https://camo.githubusercontent.com/121b1371c2472aab628eb6b665087b26a54da3da4844601f96dde3fa184d985f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f506c6174666f726d2d4c696e75782d4643433632343f7374796c653d666c61742d737175617265266c6f676f3d6c696e7578266c6f676f436f6c6f723d626c61636b"
+                  alt="Linux"
+                  data-canonical-src="https://img.shields.io/badge/Platform-Linux-FCC624?style=flat-square&amp;logo=linux&amp;logoColor=black"
+                  style="max-width: 100%;"></a><br>
+              <a href="#"><img
+                  src="https://camo.githubusercontent.com/7ff19b49d56c470730ea551f33b9afbf7bd11f743e17fb113d2bed4250e612af/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4e6574776f726b2d536f636b657425323054656c656d657472792d3136373941373f7374796c653d666c61742d737175617265"
+                  alt="Networking"
+                  data-canonical-src="https://img.shields.io/badge/Network-Socket%20Telemetry-1679A7?style=flat-square"
+                  style="max-width: 100%;"></a>
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </markdown-accessiblity-table>
+  <br>
+
+  <p><a target="_blank" rel="noopener noreferrer nofollow"
+      href="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif"><img
+        src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif"
+        width="100%" height="2" style="max-width: 100%; height: auto; max-height: 2px;"></a></p>
+  <br>
+  <h2>🧰 Tech Arsenal</h2>
+  <div align="center">
+    <h3>💻 Core Languages</h3>
+    <a href="#">
+      <img
+        src="https://camo.githubusercontent.com/4b814d75e48611bcad074f180d1b39187494b57c96f8ab22362f9ce9ad108938/68747470733a2f2f736b696c6c69636f6e732e6465762f69636f6e733f693d632c6a6176612c707974686f6e2c6a732c74732c62617368"
+        data-canonical-src="https://skillicons.dev/icons?i=c,java,python,js,ts,bash" style="max-width: 100%;">
+    </a>
+    <p><br><br></p>
+    <h3>🌐 Backend, APIs &amp; Data</h3>
+    <a href="#">
+      <img
+        src="https://camo.githubusercontent.com/544cd45368f939be4859cb84276359776a2cba99197ab43caa9172c04938f76b/68747470733a2f2f736b696c6c69636f6e732e6465762f69636f6e733f693d6e6f64656a732c657870726573732c666c61736b2c666173746170692c706f7374677265732c6d6f6e676f64622c73716c6974652c7265646973"
+        data-canonical-src="https://skillicons.dev/icons?i=nodejs,express,flask,fastapi,postgres,mongodb,sqlite,redis"
+        style="max-width: 100%;">
+    </a>
+    <p><br><br></p>
+    <h3>🔌 Hardware, Embedded &amp; Systems</h3>
+    <a href="#">
+      <img
+        src="https://camo.githubusercontent.com/1fef448e22dfaa5024e8cc055f280ab2e927b58096c954b45f83e29cb6129e4d/68747470733a2f2f736b696c6c69636f6e732e6465762f69636f6e733f693d61726475696e6f2c72617370626572727970692c6c696e7578"
+        data-canonical-src="https://skillicons.dev/icons?i=arduino,raspberrypi,linux" style="max-width: 100%;">
+    </a>
+    <br>
+    <p align="center">
+      <a target="_blank" rel="noopener noreferrer nofollow"
+        href="https://camo.githubusercontent.com/920d22a9728aa6c3f5b90881d9ed1477175e7cca48c32c9b2889c3778dd8ff40/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f45535033322d4537333532433f7374796c653d666f722d7468652d6261646765266c6f676f3d657370726573736966266c6f676f436f6c6f723d7768697465"><img
+          src="https://camo.githubusercontent.com/920d22a9728aa6c3f5b90881d9ed1477175e7cca48c32c9b2889c3778dd8ff40/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f45535033322d4537333532433f7374796c653d666f722d7468652d6261646765266c6f676f3d657370726573736966266c6f676f436f6c6f723d7768697465"
+          data-canonical-src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&amp;logo=espressif&amp;logoColor=white"
+          style="max-width: 100%;"></a>
+      <a target="_blank" rel="noopener noreferrer nofollow"
+        href="https://camo.githubusercontent.com/d8f2accb9a670da1e158535715e3fb0b8c7859a77858e9739c3ab8e45185d190/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4f7065726174696e6725323053797374656d732d3232323232323f7374796c653d666f722d7468652d6261646765266c6f676f3d6c696e7578266c6f676f436f6c6f723d7768697465"><img
+          src="https://camo.githubusercontent.com/d8f2accb9a670da1e158535715e3fb0b8c7859a77858e9739c3ab8e45185d190/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4f7065726174696e6725323053797374656d732d3232323232323f7374796c653d666f722d7468652d6261646765266c6f676f3d6c696e7578266c6f676f436f6c6f723d7768697465"
+          data-canonical-src="https://img.shields.io/badge/Operating%20Systems-222222?style=for-the-badge&amp;logo=linux&amp;logoColor=white"
+          style="max-width: 100%;"></a>
+      <a target="_blank" rel="noopener noreferrer nofollow"
+        href="https://camo.githubusercontent.com/fb6ebe86102a8d2af30f692532f2d9721111d03c3cf3aed3948154e973885bde/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f51454d552532305669727475616c697a6174696f6e2d4646363630303f7374796c653d666f722d7468652d6261646765266c6f676f3d71656d75266c6f676f436f6c6f723d7768697465"><img
+          src="https://camo.githubusercontent.com/fb6ebe86102a8d2af30f692532f2d9721111d03c3cf3aed3948154e973885bde/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f51454d552532305669727475616c697a6174696f6e2d4646363630303f7374796c653d666f722d7468652d6261646765266c6f676f3d71656d75266c6f676f436f6c6f723d7768697465"
+          data-canonical-src="https://img.shields.io/badge/QEMU%20Virtualization-FF6600?style=for-the-badge&amp;logo=qemu&amp;logoColor=white"
+          style="max-width: 100%;"></a>
+      <a target="_blank" rel="noopener noreferrer nofollow"
+        href="https://camo.githubusercontent.com/a2465d602bb1f259682321396415d5809085a8aae75a008510dbcbb50f176985/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f417373656d626c7925323028783836292d3645344331333f7374796c653d666f722d7468652d6261646765"><img
+          src="https://camo.githubusercontent.com/a2465d602bb1f259682321396415d5809085a8aae75a008510dbcbb50f176985/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f417373656d626c7925323028783836292d3645344331333f7374796c653d666f722d7468652d6261646765"
+          data-canonical-src="https://img.shields.io/badge/Assembly%20(x86)-6E4C13?style=for-the-badge"
+          style="max-width: 100%;"></a>
+      <a target="_blank" rel="noopener noreferrer nofollow"
+        href="https://camo.githubusercontent.com/21434177580ee1a7664547f4961a41bca52ed6870865158408b83bd395e78853/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f436f6d70757465722532304e6574776f726b696e672d3030353939433f7374796c653d666f722d7468652d6261646765"><img
+          src="https://camo.githubusercontent.com/21434177580ee1a7664547f4961a41bca52ed6870865158408b83bd395e78853/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f436f6d70757465722532304e6574776f726b696e672d3030353939433f7374796c653d666f722d7468652d6261646765"
+          data-canonical-src="https://img.shields.io/badge/Computer%20Networking-00599C?style=for-the-badge"
+          style="max-width: 100%;"></a>
+      <a target="_blank" rel="noopener noreferrer nofollow"
+        href="https://camo.githubusercontent.com/19e5f74920bbb42c1d08e2d64f16f40131fadb27e70d5a7a05cdc1d85f51a519/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4453412d3030453546463f7374796c653d666f722d7468652d6261646765266c6f676f436f6c6f723d626c61636b"><img
+          src="https://camo.githubusercontent.com/19e5f74920bbb42c1d08e2d64f16f40131fadb27e70d5a7a05cdc1d85f51a519/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4453412d3030453546463f7374796c653d666f722d7468652d6261646765266c6f676f436f6c6f723d626c61636b"
+          data-canonical-src="https://img.shields.io/badge/DSA-00E5FF?style=for-the-badge&amp;logoColor=black"
+          style="max-width: 100%;"></a>
+    </p>
+    <br>
+    <h3>🛠️ Developer Tools &amp; Environment</h3>
+    <a href="#">
+      <img
+        src="https://camo.githubusercontent.com/df591fff9c2f764bf7e11b07c00f6a119c6cb71d5bb196a2c5f82ecd0cbd06c4/68747470733a2f2f736b696c6c69636f6e732e6465762f69636f6e733f693d6769742c6769746875622c646f636b65722c7673636f64652c706f73746d616e"
+        data-canonical-src="https://skillicons.dev/icons?i=git,github,docker,vscode,postman" style="max-width: 100%;">
+    </a>
+  </div>
+  <br>
+
+  <p><a target="_blank" rel="noopener noreferrer nofollow"
+      href="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif"><img
+        src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif"
+        width="100%" height="2" style="max-width: 100%; height: auto; max-height: 2px;"></a></p>
+  <br>
+  <h2>🧠 Engineering Philosophy &amp; Architecture</h2>
+  <div align="center">
+    <pre lang="text" class="notranslate"><code class="notranslate">┌─────────────────────────────────────────────────────────────┐
+│ 🔴 🟡 🟢  rishi@systems-core: ~/blueprint                   │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│    [ PROBLEM ] ──► [ LEARN ] ──► [ BUILD ]                  │
+│                                     │                       │
+│                                     ▼                       │
+│    [ REBUILD ] ◄── [ UNDERSTAND ] ◄─┴─► [ DEBUG &amp; BREAK ]   │
+│                                                             │
+│       "Understanding systems, one abstraction layer         │
+│                        at a time."                          │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+</code></pre>
+  </div>
+  <br>
+
+  <div align="center">
+    <a target="_blank" rel="noopener noreferrer nofollow"
+      href="https://camo.githubusercontent.com/37854ab71d7e53cf42c9fcdec74ddf11e83d68d5561646a120356000fbc2f0ce/68747470733a2f2f63617073756c652d72656e6465722e76657263656c2e6170702f6170693f747970653d776176696e6726636f6c6f723d6772616469656e7426637573746f6d5f636f6c6f723d303a3739323843412c35303a3064313131372c3130303a303045354646266865696768743d3132302673656374696f6e3d666f6f746572"><img
+        src="https://camo.githubusercontent.com/37854ab71d7e53cf42c9fcdec74ddf11e83d68d5561646a120356000fbc2f0ce/68747470733a2f2f63617073756c652d72656e6465722e76657263656c2e6170702f6170693f747970653d776176696e6726636f6c6f723d6772616469656e7426637573746f6d5f636f6c6f723d303a3739323843412c35303a3064313131372c3130303a303045354646266865696768743d3132302673656374696f6e3d666f6f746572"
+        width="100%" alt="Footer Wave"
+        data-canonical-src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;custom_color=0:7928CA,50:0d1117,100:00E5FF&amp;height=120&amp;section=footer"
+        style="max-width: 100%;"></a>
+    <h3>✨ Let's Connect &amp; Build Something Great!</h3>
+    <p><a href="https://github.com/Rishikeshn2007"><img
+          src="https://camo.githubusercontent.com/f1192e4d6223b82b7ddf3182f69b59e40f1a5457b896ffc9a2cdd8915fcc15a4/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4769744875622d3138313731373f7374796c653d666f722d7468652d6261646765266c6f676f3d676974687562266c6f676f436f6c6f723d7768697465"
+          alt="GitHub"
+          data-canonical-src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white"
+          style="max-width: 100%;"></a><br>
+      <a href="mailto:rishikeshn663@gmail.com"><img
+          src="https://camo.githubusercontent.com/c267d42982b9475089601b621ea0b1c955332095094d6557b0b3081588c13f03/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f456d61696c2d72697368696b6573686e36363340676d61696c2e636f6d2d4431343833363f7374796c653d666f722d7468652d6261646765266c6f676f3d676d61696c266c6f676f436f6c6f723d7768697465"
+          alt="Email"
+          data-canonical-src="https://img.shields.io/badge/Email-rishikeshn663@gmail.com-D14836?style=for-the-badge&amp;logo=gmail&amp;logoColor=white"
+          style="max-width: 100%;"></a>
+    </p>
+  </div>
+</body>
+
+</html>
