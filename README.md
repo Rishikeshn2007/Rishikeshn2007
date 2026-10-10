@@ -10,7 +10,6 @@
 
 <!-- Status & Metric Badges -->
 [![GitHub](https://img.shields.io/badge/GitHub-Rishikeshn2007-00E5FF?style=for-the-badge&logo=github&logoColor=0d1117)](https://github.com/Rishikeshn2007)
-[![Profile Views](https://komarev.com/ghpvc/?username=Rishikeshn2007&label=Profile%20Views&style=for-the-badge&color=00E5FF)](https://github.com/Rishikeshn2007)
 [![Status](https://img.shields.io/badge/Status-Building%20Systems-7928CA?style=for-the-badge&logo=codefactor&logoColor=white)](https://github.com/Rishikeshn2007)
 [![OS](https://img.shields.io/badge/OS-Linux%20Everyday-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/Rishikeshn2007)
 
