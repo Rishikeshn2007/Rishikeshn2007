@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- Animated Header Wave Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&custom_color=0:00E5FF,50:0d1117,100:7928CA&height=220&section=header&text=Hi%20there,%20I'm%20Rishikesh%20👋&fontSize=38&fontColor=ffffff&fontAlignY=38&desc=Systems%20Builder%20%7C%20Backend%20Engineer%20%7C%20IoT%20%26%20Robotics%20%7C%20AI%20%26%20RAG&descSize=16&descAlignY=62&descColor=00E5FF" width="100%" alt="Header Banner" />
+<!-- Profile header banner -->
+<img src="assets/profile-header.svg" width="100%" alt="Hi there, I'm Rishikesh — Systems Builder, Backend Engineer, IoT and Robotics, AI and RAG" />
 
 <!-- Dynamic Typing SVG -->
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=900&color=00E5FF&center=true&vCenter=true&repeat=true&width=750&height=50&lines=Building+Scalable+Backend+Systems;Exploring+OS+Kernels+%26+Low-Level+Architectures;Autonomous+Vehicles+%26+Embedded+IoT;AI+%26+Retrieval-Augmented+Generation+(RAG);WiFi+Spatial+Intelligence+%26+Signal+Sensing;Turning+Complex+Problems+into+Robust+Software" alt="Typing SVG" />
@@ -10,7 +10,7 @@
 
 <!-- Status & Metric Badges -->
 [![GitHub](https://img.shields.io/badge/GitHub-Rishikeshn2007-00E5FF?style=for-the-badge&logo=github&logoColor=0d1117)](https://github.com/Rishikeshn2007)
-[![Profile Views](https://komarev.com/ghpvc/?username=Rishikeshn2007&style=for-the-badge&color=00E5FF)](https://github.com/Rishikeshn2007)
+[![Profile Views](https://komarev.com/ghpvc/?username=Rishikeshn2007&label=Profile%20Views&style=for-the-badge&color=00E5FF)](https://github.com/Rishikeshn2007)
 [![Status](https://img.shields.io/badge/Status-Building%20Systems-7928CA?style=for-the-badge&logo=codefactor&logoColor=white)](https://github.com/Rishikeshn2007)
 [![OS](https://img.shields.io/badge/OS-Linux%20Everyday-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/Rishikeshn2007)
 
