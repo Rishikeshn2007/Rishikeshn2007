@@ -39,7 +39,6 @@ rishi@archlinux:~$ cat philosophy.txt
 - 🧠 **Systems & Architecture**: Exploring **OS kernels, memory management, and networking**.
 - 🔌 **IoT & Autonomous Robotics**: Developing firmware for **ESP32, sensors, and computer-vision rovers**.
 - 🤖 **AI & RAG Systems**: Building context-aware assistants using **LLMs, vector databases (ChromaDB), and retrieval pipelines**.
-- 📡 **Spatial Signal Sensing**: Creator of **RuView**, using ambient WiFi signals for presence and motion tracking.
 - 🐧 **Linux Power User**: Terminal-driven workflow, shell scripting, and low-level tooling.
 
 </td>
@@ -190,22 +189,6 @@ Understanding computing from bare-metal silicon up to the user space.
 <tr>
 <td width="50%" valign="top">
 
-### 📡 [π RuView](https://github.com/Rishikeshn2007/RuView)
-**WiFi Spatial Intelligence & Presence Detection**
-
-> *Turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single camera pixel.*
-
-- Non-invasive motion and occupancy tracking via RF perturbation analysis.
-- Privacy-first alternative to video surveillance.
-- Real-time signal stream filtering and state inference.
-
-[![Tech](https://img.shields.io/badge/Domain-Signal%20Intelligence-00E5FF?style=flat-square)](#)
-[![Python](https://img.shields.io/badge/Language-Python-3776AB?style=flat-square&logo=python&logoColor=white)](#)
-[![Privacy First](https://img.shields.io/badge/Security-Zero--Camera%20Privacy-success?style=flat-square)](#)
-
-</td>
-<td width="50%" valign="top">
-
 ### 📚 [Study_GPT](https://github.com/Rishikeshn2007/Study_GPT)
 **AI-Powered RAG Study Assistant**
 
@@ -220,8 +203,6 @@ Understanding computing from bare-metal silicon up to the user space.
 [![RAG](https://img.shields.io/badge/AI-RAG%20Pipeline-7928CA?style=flat-square)](#)
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🚗 [Unmanned Vehicle v2](https://github.com/Rishikeshn2007/Unmanned_vehicle-v2)
@@ -238,6 +219,8 @@ Understanding computing from bare-metal silicon up to the user space.
 [![Python](https://img.shields.io/badge/Backend-Flask-000000?style=flat-square&logo=flask&logoColor=white)](#)
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🛡️ [Watchtower](https://github.com/Rishikeshn2007/Watchtower)
@@ -252,6 +235,22 @@ Understanding computing from bare-metal silicon up to the user space.
 [![Systems](https://img.shields.io/badge/Domain-Systems%20%26%20Telemetry-blueviolet?style=flat-square)](#)
 [![Linux](https://img.shields.io/badge/Platform-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)](#)
 [![Networking](https://img.shields.io/badge/Network-Socket%20Telemetry-1679A7?style=flat-square)](#)
+
+</td>
+<td width="50%" valign="top">
+
+### 🚑 [Ambulance Nearest Dispatch API](https://github.com/Rishikeshn2007/ambulance)
+**Nearest Ambulance Dispatch API**
+
+> *Express API that finds the nearest ambulance point by travel time using OSRM routing.*
+
+- Validates latitude and longitude input.
+- Compares route distance and duration for ambulance points.
+- Returns the nearest point based on minimum travel time.
+
+[![Node.js](https://img.shields.io/badge/Runtime-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)](#)
+[![Express](https://img.shields.io/badge/API-Express-000000?style=flat-square&logo=express&logoColor=white)](#)
+[![Routing](https://img.shields.io/badge/Routing-OSRM-4B8BBE?style=flat-square)](#)
 
 </td>
 </tr>
